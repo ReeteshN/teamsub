@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.Accordion {
+	overflow: hidden;
+}
+.AccordionPanel {
+	margin: 0px;
+	padding: 0px;
+	border-bottom:2px solid #fff;
+}
+.AccordionPanelTab {
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	background: #b49ac9;}
+.AccordionPanelContent {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.AccordionPanelContent1 {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.AccordionPanelContent2 {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.AccordionPanelContent3 {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.AccordionPanelOpen .AccordionPanelTab {
+	background-color: #B49AC9;
+	border-bottom:2px solid #fff;
+	color: #111;
+}
+/*plus 1 */
+.AccordionPanelOpen .AccordionPanelTab1 {
+	background-color: #e69dc5;
+	border-bottom:2px solid #fff;
+	color: #111;
+	height: 49px;
+}
+
+/*plus 2*/
+
+.AccordionPanelOpen .AccordionPanelTab2 {
+	background-color: #f5c684;
+	border-bottom:2px solid #fff;
+	color: #111;
+	height: 49px;
+}
+
+/*plus 3*/
+
+.AccordionPanelOpen .AccordionPanelTab3 {
+	background-color: #99ce7e;
+	border-bottom:2px solid #fff;
+	color: #333;
+	height: 49px;
+}
+.AccordionPanelTab1{ background-color:#e69dc5;height: 49px; cursor:pointer;}
+.AccordionPanelTab2{ background-color:#f5c684;height: 49px; cursor:pointer;}
+.AccordionPanelTab3{ background-color:#99ce7e;height: 49px; cursor:pointer;}
+.AccordionPanelTabHover {
+	color: #333;
+}
+.AccordionPanelOpen .AccordionPanelTabHover {
+	color: #333;
+}
+@media print {
+
+  .Accordion {
+  overflow: visible !important;
+  }
+  .AccordionPanelContent {
+
+  display: block !important;
+
+  overflow: visible !important;
+
+  height: auto !important;
+
+  }
+}
+
+/* nadeem css */
+/* container size's for ecosystem  */
+
+.content-image{padding-top:5px; border:0px; padding-bottom:5px;}
+.finale-content{font:12px/20px arial; padding:0px 10px 20px 10px; text-align:left;}
